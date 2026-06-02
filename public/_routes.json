@@ -2,4 +2,5 @@
   "version": 1,
   "include": ["/*"],
   "exclude": ["/sw.js"]
+  "exclude": ["/_next/static/*"]
 }
