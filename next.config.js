@@ -71,4 +71,9 @@ const withPWA = require('next-pwa')({
   skipWaiting: true,
 });
 
+module.exports = withPWA({
+  images: {
+    unoptimized: true,
+  },
+  
 module.exports = withPWA(nextConfig);
